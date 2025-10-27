@@ -1,23 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Semantic tags</title>
 </head>
+
 <body>
     <header>
-        <p>My Daily Blog</p>
-        <img src="./images/abc.svg.webp" alt="123" width="100" height="100">
-        <img src="" alt="">
-        <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Contact</li>
-        </ul>
+        <nav>
+            <p>My Daily Blog</p>
+            <img src="./images/abc.svg.webp" alt="123" width="100" height="100">
+            <img src="" alt="">
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="About Us">About Us</a></li>
+                <li><a href="Contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <img src="tw.png" alt="">
+        <article>
+            <h2>Istanbul</h2>
+            <details>
+                <summary> Istanbul, the largest city in Turkey, has a history that spans thousands of years.
+                    Originally known as Byzantium and later as Constantinople,</summary>
+                <p>
+                    Its location between Europe and Asia made it a hub for trade and culture.
+                    The city is home to stunning landmarks like Hagia Sophia, the Blue Mosque,
+                    and Topkapi Palace, each reflecting its glorious past.
+                    Today, Istanbul remains a vibrant city where ancient history meets modern life,
+                    attracting millions of visitors every year.
+                </p>
+            </details>
+        </article>
+        <img src="images/is.jpg" width="300" height="300" alt="Istanbul">
+        <article>
+            <h2>Cappadocia</h2>
+            <details>
+                <summary>
+                    Cappadocia is one of the most magical regions in central Turkey.
+
+                    It is famous for its unique rock formations and fairy chimneys.
+                </summary>
+                <p>These formations were created by ancient volcanic eruptions.
+
+                    Over time, wind and rain shaped the soft tufa rocks into tall cones.
+
+                    People later carved homes, churches, and tunnels into these rocks.
+
+                    This created an underground world unlike anywhere else on Earth.
+
+                    Cappadocia has been inhabited since ancient times.
+
+                    The Hittites, Persians, Romans, and Byzantines all left their mark here.
+
+                    Early Christians found refuge in its caves and underground cities.
+
+                    They built hidden churches decorated with colorful frescoes.
+
+                    These ancient frescoes still tell stories from the Bible.</p>
+            </details>
+            <figure>
+                <img src="images/cappa.webp" width="300" height="300" alt="Cappadocia">
+            </figure>
+            <figcaption>
+                cappadocia love velly
+            </figcaption>
+        </article>
     </main>
+    <aside>
+        <h3>Your Opinion about the blogs</h3>
+        <form action="submit">
+            <label for="opinion">Do you like the blog</label>
+            <input type="checkbox">
+            <label for="Suggestion">Tell us about your self</label>
+            <input type="text">
+
+
+        </form>
+    </aside>
+    <footer>
+        <p>© 2025 Buy Now. All rights reserved.</p>
+        <a href="https//www.youtube.com"> <img src="images/yt.png" width="23p" height="23" alt="Youtube"></a>
+        <a href="https//www.twiter.com"> <img src="images/tw.png" width="23" height="23" alt="Twitter"></a>
+        <a href="https//www.instagram.com"> <img src="images/in.jpeg" width="23" height="23" alt="Instagram"></a>
+    </footer>
 </body>
+
 </html>
